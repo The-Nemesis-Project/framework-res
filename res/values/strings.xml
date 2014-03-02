@@ -2598,4 +2598,6 @@ To turn off this feature, go to Settings > Lock screen > Auto factory reset"</st
     <string name="tw_safe_media_volume_warning">Listening at a high volume for a long time may damage your hearing. The volume will be increased above safe levels.</string>
     <string name="tw_cover_volume_warning_message">Listening at high volumes for a long time may damage hearing. To increase volume, open cover.</string>
     <string name="resolver_guide_title">Clear defaults</string>
+    <string name="global_action_screenshot">Screenshot</string>
+    <string name="global_action_navbar">Navbar</string>
 </resources>

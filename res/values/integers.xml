@@ -48,7 +48,7 @@
     <integer name="config_lowLimitAtHighestAutoBrightnessLevel">255</integer>
     <integer name="config_valueOfVirtualZeroCandela">0</integer>
     <integer name="config_lightSensorWarmupTime">0</integer>
-    <integer name="config_virtualKeyQuietTimeMillis">0</integer>
+    <integer name="config_virtualKeyQuietTimeMillis">200</integer>
     <integer name="config_datause_polling_period_sec">600</integer>
     <integer name="config_datause_threshold_bytes">0</integer>
     <integer name="config_datause_throttle_kbitsps">300</integer>

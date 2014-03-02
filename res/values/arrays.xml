@@ -540,7 +540,6 @@
     </string-array>
     <integer-array name="config_data_usage_network_types">
         <item>0</item>
-        <item>2</item>
         <item>3</item>
         <item>4</item>
         <item>5</item>
@@ -553,9 +552,7 @@
         <item>wlan0</item>
     </string-array>
     <array name="config_tether_wimax_regexs" />
-    <string-array name="config_tether_bluetooth_regexs">
-        <item>bt-pan</item>
-    </string-array>
+    <array name="config_tether_bluetooth_regexs" />
     <array name="config_tether_dhcp_range" />
     <array name="config_mobile_hotspot_provision_app" />
     <integer-array name="config_tether_upstream_types">
@@ -783,7 +780,12 @@
     <array name="config_sms_enabled_single_shift_tables" />
     <array name="config_sms_enabled_locking_shift_tables" />
     <array name="config_oemUsbModeOverride" />
-    <array name="hideApnBlackList" />
+    <string-array name="hideApnBlackList">
+        <item>ims</item>
+        <item>mms</item>
+        <item>cbs</item>
+        <item>fota</item>
+    </string-array>
     <array name="allowedOnDataDisabled" />
     <integer-array name="config_defaultNotificationVibePattern">
         <item>0</item>

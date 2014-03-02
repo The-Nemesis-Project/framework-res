@@ -71,7 +71,7 @@
         <item name="buttonStyleInset">@style/Widget.Button.Inset</item>
         <item name="buttonStyleToggle">@style/Widget.Button.Toggle</item>
         <item name="galleryItemBackground">@drawable/gallery_item_background</item>
-        <item name="listPreferredItemHeight">64.0dip</item>
+        <item name="listPreferredItemHeight">54.0dip</item>
         <item name="expandableListPreferredItemPaddingLeft">40.0dip</item>
         <item name="expandableListPreferredChildPaddingLeft">?expandableListPreferredItemPaddingLeft</item>
         <item name="expandableListPreferredItemIndicatorLeft">3.0dip</item>
@@ -995,7 +995,7 @@
         <item name="buttonStyleInset">@style/Widget.Holo.Button.Inset</item>
         <item name="buttonStyleToggle">@style/Widget.Holo.Button.Toggle</item>
         <item name="galleryItemBackground">@drawable/gallery_item_background</item>
-        <item name="listPreferredItemHeight">64.0dip</item>
+        <item name="listPreferredItemHeight">54.0dip</item>
         <item name="expandableListPreferredItemPaddingLeft">40.0dip</item>
         <item name="expandableListPreferredChildPaddingLeft">?expandableListPreferredItemPaddingLeft</item>
         <item name="expandableListPreferredItemIndicatorLeft">3.0dip</item>
@@ -1083,7 +1083,7 @@
         <item name="progressBarStyleSmallInverse">@style/Widget.Holo.ProgressBar.Small.Inverse</item>
         <item name="progressBarStyleLargeInverse">@style/Widget.Holo.ProgressBar.Large.Inverse</item>
         <item name="textColorPrimaryInverseDisableOnly">@color/primary_text_disable_only_holo_light</item>
-        <item name="windowShowWallpaper">false</item>
+        <item name="windowShowWallpaper">true</item>
         <item name="textAppearanceSearchResultSubtitle">@style/TextAppearance.Holo.SearchResult.Subtitle</item>
         <item name="textAppearanceSearchResultTitle">@style/TextAppearance.Holo.SearchResult.Title</item>
         <item name="scrollbarFadeDuration">250</item>
@@ -1250,7 +1250,7 @@
         <item name="buttonStyleInset">@style/Widget.Holo.Light.Button.Inset</item>
         <item name="buttonStyleToggle">@style/Widget.Holo.Light.Button.Toggle</item>
         <item name="galleryItemBackground">@drawable/gallery_item_background</item>
-        <item name="listPreferredItemHeight">64.0dip</item>
+        <item name="listPreferredItemHeight">54.0dip</item>
         <item name="expandableListPreferredItemPaddingLeft">40.0dip</item>
         <item name="expandableListPreferredChildPaddingLeft">?expandableListPreferredItemPaddingLeft</item>
         <item name="expandableListPreferredItemIndicatorLeft">3.0dip</item>
@@ -1477,6 +1477,7 @@
         <item name="windowTitleStyle">@style/DialogWindowTitle.Holo</item>
         <item name="windowAnimationStyle">@style/Animation.Holo.Dialog</item>
         <item name="windowSoftInputMode">adjustPan</item>
+        <item name="windowShowWallpaper">false</item>
         <item name="colorBackgroundCacheHint">@null</item>
         <item name="windowActionBar">false</item>
         <item name="windowActionModeOverlay">true</item>
@@ -1574,6 +1575,7 @@
         <item name="imeFullscreenBackground">@drawable/screen_background_selector_light</item>
         <item name="imeExtractEnterAnimation">@anim/input_method_extract_enter</item>
         <item name="imeExtractExitAnimation">@anim/input_method_extract_exit</item>
+        <item name="windowShowWallpaper">false</item>
     </style>
     <style name="TextAppearance.Widget.PopupMenu.Large" parent="@style/TextAppearance.Widget.PopupMenu">
         <item name="textSize">22.0sp</item>
@@ -2271,7 +2273,7 @@
         <item name="buttonStyleSmall">@style/Widget.DeviceDefault.Button.Small</item>
         <item name="buttonStyleInset">@style/Widget.DeviceDefault.Button.Inset</item>
         <item name="buttonStyleToggle">@style/Widget.DeviceDefault.Button.Toggle</item>
-        <item name="listPreferredItemHeight">56.0dip</item>
+        <item name="listPreferredItemHeight">54.0dip</item>
         <item name="windowBackground">@drawable/tw_background_holo_dark</item>
         <item name="windowTitleStyle">@style/WindowTitle.DeviceDefault</item>
         <item name="windowTitleBackgroundStyle">@style/WindowTitleBackground.DeviceDefault</item>
@@ -2483,7 +2485,7 @@
         <item name="buttonStyleSmall">@style/Widget.DeviceDefault.Light.Button.Small</item>
         <item name="buttonStyleInset">@style/Widget.DeviceDefault.Light.Button.Inset</item>
         <item name="buttonStyleToggle">@style/Widget.DeviceDefault.Light.Button.Toggle</item>
-        <item name="listPreferredItemHeight">56.0dip</item>
+        <item name="listPreferredItemHeight">54.0dip</item>
         <item name="windowBackground">@drawable/tw_background_holo_light</item>
         <item name="windowContentOverlay">@null</item>
         <item name="windowTitleStyle">@style/WindowTitle.DeviceDefault</item>
@@ -2690,6 +2692,7 @@
         <item name="windowTitleStyle">@style/DialogWindowTitle.DeviceDefault</item>
         <item name="windowAnimationStyle">@style/Animation.DeviceDefault.Dialog</item>
         <item name="windowSoftInputMode">adjustPan</item>
+        <item name="windowShowWallpaper">false</item>
         <item name="colorBackgroundCacheHint">@null</item>
         <item name="windowActionBar">false</item>
         <item name="windowActionModeOverlay">true</item>
@@ -2797,6 +2800,7 @@
         <item name="imeFullscreenBackground">@drawable/screen_background_selector_light</item>
         <item name="imeExtractEnterAnimation">@anim/input_method_extract_enter</item>
         <item name="imeExtractExitAnimation">@anim/input_method_extract_exit</item>
+        <item name="windowShowWallpaper">false</item>
         <item name="colorBackgroundCacheHint">@null</item>
     </style>
     <style name="Theme.DeviceDefault.Light.DarkActionBar" parent="@style/Theme.Holo.Light.DarkActionBar">
